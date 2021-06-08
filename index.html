@@ -21,8 +21,27 @@ width: 120px; height: 120px;
 margin: 0 auto;
 left: 0; right: 0;
 			}
+      .container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
 
 
+.box {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1;
+ -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  max-width: 50%;
+  max-height: 50%;
+  padding: 20px 40px;
+}
 
 
                 </style>
@@ -39,6 +58,11 @@ left: 0; right: 0;
 
                 </div>
                 <img src="bit.png" alt="bit logo" class="logo">
+                <div class="container">
+  <div class="box">
+    <p>We're Bit. A group creating the next generation of software. </p>
+  </div>
+</div>
 
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r113/three.min.js"></script>s
                 <script src="https://cdn.spline.design/lib/anime.min.js"></script>
