@@ -22,23 +22,54 @@ margin: 0 auto;
 left: 0; right: 0;
 			}
       .container1 {
+        
   align-items: center;
   display: flex;
+
   justify-content: center;
   height: 100px;
   width: 100px;
 }
 
+.container2 {
+  
+align-items: center;
+display: flex;
+position: fixed;
+
+justify-content: center;
+height: 100px;
+width: 300px;
+top: 50%; left: 40%
+}
+
 
 .box {
   background-color: rgba(255, 255, 255, 0.3);
-
+  position: fixed;
+  top: 0; left: 0; right: 0;
   font-family: sans-serif;
   text-align: center;
 
  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   width: 100px;
+
+height: 100px;
+	
+
+}
+
+.box2 {
+  background-color: rgba(255, 255, 255, 0.3);
+  position: relative;
+  margin: auto;
+  font-family: sans-serif;
+  text-align: center;
+
+ -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  width: 400px;
 
 height: 100px;
 	
@@ -59,9 +90,9 @@ height: 100px;
 
 
                 </div>
-                            <img src="bitT.png" alt="bit logo" class="logo">
-                <div class="container1">
-  <div class="box">
+                        <div class="container1">    <div class="box">  <img src="bitT.png" alt="bit logo" class="logo"></div></div>
+                <div class="container2">
+  <div class="box2">
     <p>We're Bit. A group creating the next generation of software. </p>
   </div>
 </div>
